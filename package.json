@@ -1,0 +1,26 @@
+{
+  "name": "wakeup",
+  "version": "1.0.0",
+  "description": "A small wake-on-lan client",
+  "main": "index.js",
+  "bin": "bin/wakeup.js",
+  "scripts": {
+    "prepublish": "coffee -co . ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tniessen/node-wakeup.git"
+  },
+  "keywords": [
+    "wake-on-lan"
+  ],
+  "author": "Tobias Nießen <tniessen@tnie.de>",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/tniessen/node-wakeup/issues"
+  },
+  "homepage": "https://github.com/tniessen/node-wakeup#readme",
+  "dependencies": {
+    "args.js": "^0.3.0"
+  }
+}
