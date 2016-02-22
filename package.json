@@ -1,6 +1,6 @@
 {
   "name": "wakeup",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A small wake-on-lan client",
   "main": "index.js",
   "bin": "bin/wakeup.js",
