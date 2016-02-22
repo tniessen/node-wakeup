@@ -27,11 +27,11 @@ sendWOL = (mac, opts, cb) ->
   sock.on 'error', cb
   sock.bind () ->
     sock.setBroadcast true
-  port = opts.port || 9
-  addr = opts.address || '255.255.255.255'
-  sock.send packet, 0, packet.length, port, addr, (err) ->
-    sock.close()
-    cb err
+    port = opts.port || 9
+    addr = opts.address || '255.255.255.255'
+    sock.send packet, 0, packet.length, port, addr, (err) ->
+      sock.close()
+      cb err
 
 module.exports = {
   createPacket
