@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tniessen/node-wakeup.svg?branch=master)](https://travis-ci.org/tniessen/node-wakeup)
+
 # Installation
 
 A pre-compiled version of this utility is available as a NPM module. To install
